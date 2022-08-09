@@ -97,6 +97,7 @@
     align-items: center;
     height: 70px;
     gap: 10%;
+    position: relative;
 }
 .container-btn:hover{
     cursor: pointer;
@@ -108,7 +109,10 @@
     color: #9356DC;
 } 
 .container-btn p{
-    margin-right: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .number{
     display: flex;
@@ -119,15 +123,77 @@
     color: white;
     width: 25px;
     height: 25px;
-    margin-left: -10px;
+    position: absolute;
+    left:-15px;
+    
 }
 .btn-title{
-    width: 75%;
+    width: 50%;
 }
+/* partie icon */
 .icon{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
     font-size: 20px;
-    color: lightgray;
-   
+}
+.icon i{
+    position: absolute;
+    left: -35px;
+}
+.icon-menu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 20px;
+}
+.icon-menu i{
+    position: absolute;
+    left: -45px;
+}
+.icon-store{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 20px;
+}
+.icon-store i{
+    position: absolute;
+    left: -45px;
+}
+/* Partie restaurant */
+.section-restaurant{
+    background-color: #f2f2f2;
+    margin-top: 15%;
+}
+.section-restaurant h1{
+    margin-bottom: 15%;
+    padding-top: 15%;
+}
+.titre-section{
+    margin-top: 15%;
+}
+.card{
+    position: relative;
+}
+.card img{
+    width: 100%;
+}
+.new-card{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 100px;
+    height: 40px;
+    background-color:#99E2D0 ;
+    border: 1px solid #99E2D0;
+}
+.new-card span{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 
