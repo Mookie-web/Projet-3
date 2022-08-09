@@ -1,0 +1,141 @@
+*{
+    margin: 0 auto;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* Code Sass  */
+.text-bold{
+    font-weight:bold ;
+}
+.para-fonction{
+    border:1px solid black;
+}
+
+/* Header */
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.logo img{
+    width: 170px;
+}
+.localisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    border: 1px solid lightgray;
+    background-color: lightgrey;
+    height: 45px;
+}
+.icon-location{
+    width: 40%;
+}
+.icon-location span{
+    margin-left: 15px;
+}
+.reservation{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10%; */
+    background-color: #f2f2f2;
+}
+
+.para-one-top{
+   font-size: 26px;
+}
+.para-one-bottom{
+    padding-left: 35px;
+    font-size: 26px;
+}
+.para-one{
+    margin-top: 8%;
+}
+.para-two{
+    margin-top: 4%;
+}
+#para-two-top{
+    font-size: 20px;
+}
+#para-two-bottom{
+    font-size: 20px;
+    padding-left: 48px;
+}
+.button-explore{
+    margin-top: 6%;
+    margin-bottom: 12%;
+}
+.button-explore button{
+    height: 45px;
+    width: 210px;
+    border-radius: 20px;
+    background: #FF79DA
+}
+.button-explore span{
+    font-size: 15px;
+    color: white;
+}
+.title-fonctionnement{
+    font-size: 18px;
+    margin: 30px 0 15px 15px;
+}
+/* Partie Fonctionnement */
+
+.btn{
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid #f6f6f6;
+    background-color: #f6f6f6;
+    border-radius: 20px ;
+    width: 80%;
+    height: 70px;
+    margin-top: 20px;
+}
+.container-btn{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    gap: 10%;
+}
+.container-btn:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px ;
+    background-color: #e5dde3;
+}
+.container-btn:hover:hover i{
+    color: #9356DC;
+} 
+.container-btn p{
+    margin-right: 74px;
+}
+.number{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #935693;
+    background-color: #9356DC;
+    color: white;
+    width: 25px;
+    height: 25px;
+    margin-left: -10px;
+}
+.btn-title{
+    width: 75%;
+}
+.icon{
+    font-size: 20px;
+    color: lightgray;
+   
+}
+
+
+
+
+
+
+
+    
+
+
