@@ -1,0 +1,13 @@
+@media (min-width:425px) and (max-width:768px){
+    .icon-location{
+        width: 22%;
+    }
+    .btn{
+        width: 60%;
+    }
+}
+@media (max-width:589px) {
+    .icon-location{
+        width: 27%;
+    }
+} 
