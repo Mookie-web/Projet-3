@@ -1,0 +1,42 @@
+@media screen and (min-width:467px) and (max-width:768px) {
+    .card-entry{
+        width: 80%;
+    }
+    .text-bold{
+        margin-left: 17px;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    .card-entry{
+        
+        width: 60%;
+    }
+    .card-price{
+        left: 350px;
+    }
+    .text-bold{
+        margin-left: 17px;
+    }
+}
+@media screen and (min-width:993px) {
+    .hide-text{
+        display: none;
+    }
+    .view{
+        display:contents;
+    }
+    .card-entry{
+        display: flex;
+        width: 100%;
+    }
+    .card-price{
+        left: 250px;
+    }
+    .text-bold{
+        margin-left: 17px;
+    }
+    .footer-palette{
+        top: 685px;
+    }
+}
