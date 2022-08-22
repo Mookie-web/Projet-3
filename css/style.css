@@ -218,8 +218,6 @@ a:visited{
 
 /* Partie restaurant */
 .section-restaurant {
-  display: flex;
-  flex-direction: column;
   background-color: #f2f2f2;
   margin-top: 15%;
   margin-bottom: 17px;
@@ -235,9 +233,6 @@ a:visited{
   .titre-section {
   margin-top: 15%;
 }
-/* .card{
-  width: 80%;
-} */
 .card {
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
