@@ -15,10 +15,14 @@
    .section-restaurant h1{
     padding: 0;
    }
+   .card{
+    width: 45%;
+} 
    .flex-resto{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
    }
 }
 @media screen and (min-width:1024px) and (max-width:1440px) {
@@ -37,8 +41,12 @@
        .section-restaurant h1{
         padding: 0;
        }
+       .card{
+        width: 70%;
+       }
        .flex-resto{
         display: flex;
+        flex-direction: row;
         justify-content: center;
        }
 }

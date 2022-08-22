@@ -233,6 +233,15 @@ a:visited{
   .titre-section {
   margin-top: 15%;
 }
+.card{
+  width: 90%; 
+} 
+.flex-resto{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .card {
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
