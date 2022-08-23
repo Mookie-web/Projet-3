@@ -1,0 +1,32 @@
+/* Footer */
+footer{
+    height: 250px;
+    line-height: 15px;
+    background: linear-gradient(to right, #232526, #414345);
+}
+.img-footer h2{
+    font-family:Shrikhand;
+
+    
+    color: white;
+    margin-left: 25px;
+    padding-top: 35px;
+}
+.footer-link{
+    display: flex;
+    font-family: $Shrikhand;
+}
+.footer-link a{
+    position: relative;
+    color: white;
+    margin-left: 52px;
+    margin-top: 25px
+}
+.footer-link a p{
+    // font-weight: bold;
+    font-family: $Shrikhand;
+}
+.footer-link i{
+    position: absolute;
+    left: -30px;
+}

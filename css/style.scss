@@ -1,27 +1,15 @@
 $Shrikhand:shrikhand;
 $colorlinkblack:black;
-
-
-
-
-
 *{
     margin: 0 auto;
     list-style-type: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-
-/* Code Sass  */
-.text-bold{
-    font-family: $Shrikhand;
-}
 .color-black{
-    color: $colorlinkblack;
+    color: $colorblack;
 }
-.para-fonction{
-    border:1px solid black;
-}
+
 
 /* Header */
 .logo{
