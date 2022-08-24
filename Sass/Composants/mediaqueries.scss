@@ -1,0 +1,52 @@
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .flex{
+     display: flex;
+     flex-wrap: wrap;
+     width: 90%;
+    }
+    .btn{
+     width: 45%;
+    }
+    .section-restaurant{
+     margin-top: 8%;
+     margin-bottom: 12px;
+    }
+    .section-restaurant h1{
+     padding: 0;
+    }
+    .card{
+     width: 45%;
+ } 
+    .flex-resto{
+     justify-content: center;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+    
+ }
+ @media screen and (min-width:1024px) and (max-width:1440px) {
+     .flex{
+         display: flex;
+         flex-wrap: wrap;
+         width: 90%;
+        }
+        .btn{
+         width: 45%;
+        }
+        .section-restaurant{
+         margin-top: 8%;
+         margin-bottom: 12px;
+        }
+        .section-restaurant h1{
+         padding: 0;
+        }
+        .card{
+         width: 70%;
+        }
+        .flex-resto{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+        }
+ }

@@ -1,0 +1,29 @@
+/* partie icon */
+.icon {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 20px;
+  }
+  
+  .icon-color {
+    color: gray;
+  }
+  
+  .icon-number i {
+    position: absolute;
+    left: -22px;
+  }
+  
+  .icon-menu i {
+    position: absolute;
+    left: -45px;
+  }
+  
+  .icon-store i {
+    position: absolute;
+    left: -45px;
+  }
+  .title-fonction {
+    margin: 0 0 0 20px;
+  }

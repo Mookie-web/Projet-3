@@ -1,0 +1,117 @@
+* {
+    margin: 0 auto;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+/* Header */
+header{
+    box-shadow: 0 0 16px 0 #0000002e;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  header img{
+    display: flex ;
+    width: 50%;
+    margin: 5% auto;
+  }
+  header a{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    color: black;
+  }
+  .color-black{
+    color: $color-black;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+  
+  .logo img {
+    width: 170px;
+  }
+  
+  .localisation {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-grey;
+    background-color: $color-grey;
+    height: 45px;
+  }
+  .icon-location span {
+    margin-left: 15px;
+  }
+  
+  .reservation {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
+  
+  .para-one-top {
+    font-size: 26px;
+  }
+  
+  .para-one-bottom {
+    padding-left: 35px;
+    font-size: 26px;
+  }
+  
+  .para-one {
+    margin-top: 8%;
+  }
+  
+  .para-two {
+    margin-top: 4%;
+  }
+  
+  #para-two-top {
+    font-size: 20px;
+  }
+  
+  #para-two-bottom {
+    font-size: 20px;
+    padding-left: 48px;
+  }
+  
+  .button-explore {
+    margin-top: 6%;
+    margin-bottom: 12%;
+  }
+  
+  .button-explore {
+    height: 45px;
+    width: 210px;
+    border-radius: 20px;
+    background: linear-gradient(to left, $color-primary, $color-secondary);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.3s;
+  }
+  
+  .button-explore p {
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    padding-top: 12px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  .button-explore:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .fonctionnement h2 {
+    margin: 15px 0 15px 26px;
+    font-family: shrikhand;
+  }
