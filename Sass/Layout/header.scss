@@ -3,7 +3,7 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: $font-main;
   }
 /* Header */
 header{
@@ -22,7 +22,7 @@ header{
     position: absolute;
     left: 20px;
     font-size: 20px;
-    color: black;
+    color: $color-black;
   }
   .color-black{
     color: $color-black;
@@ -113,5 +113,7 @@ header{
   
   .fonctionnement h2 {
     margin: 15px 0 15px 26px;
-    font-family: shrikhand;
+    font-family: $font-primary;
   }
+
+  

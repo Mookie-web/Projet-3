@@ -9,7 +9,7 @@
     padding-top: 15%;
     margin: 30px 0 35px 25px;
     font-weight: bolder;
-    color: black;
+    color: $color-black;
   }
   
     .titre-section {
@@ -30,7 +30,7 @@
     transition: 0.3s;
     margin-bottom: 5%;
     border-radius: 20px;
-    background-color: white;
+    background-color: $color-white;
     margin: 11px;
   }
   .card:hover {
@@ -38,7 +38,7 @@
   }
   
   .card a {
-    color: black;
+    color: $color-black;
   }
   
   .container {
@@ -72,8 +72,8 @@
     top: 15px;
     width: 100px;
     height: 40px;
-    background-color: #99E2D0;
-    border: 1px solid #99E2D0;
+    background-color: $color-tertiary;
+    border: 1px solid $color-tertiary;
   }
   
   .new-card span {
@@ -84,20 +84,4 @@
     color: rgb(8, 154, 83);
     font-size: 18px;
     font-weight: bold;
-  }
-  .icon-effect::before{
-    content: '';
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    
-  }
-  .icon-effect::after{
-    content: '';
-    display: block;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    
   }

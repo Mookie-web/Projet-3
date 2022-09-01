@@ -1,10 +1,11 @@
-@import "./Utils/variables.scss";
-@import "./Composants/mediaqueries.scss";
-@import "./Layout/header.scss";
-@import"./Layout/fontionnement.scss";
-@import"./Layout/restaurant.scss";
-@import "./Layout/icon.scss";
-@import "./Layout/footer.scss";
+@import "./Utils/variables";
+@import "./Layout/header";
+@import "./Layout/footer";
+@import "./Base/base";
+@import "./Components/button";
+@import "./Pages/index";
+@import "./Pages/menu";
+
 
 
   
