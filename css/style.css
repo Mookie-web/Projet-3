@@ -193,7 +193,7 @@ body {
 
 .title-fonction {
   margin-left: 9px;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 .button-explore {
@@ -419,11 +419,6 @@ body {
   .para-one-bottom {
     padding-left: 8px;
   }
-  .flex {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-  }
   .btn {
     width: 45%;
   }
@@ -569,6 +564,7 @@ body {
 .under-title {
   text-overflow: ellipsis;
   overflow: hidden;
+  font-weight: 100;
 }
 
 .text-title {
@@ -631,7 +627,12 @@ body {
   top: 36px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 1024px) {
+  .flex {
+    display: flex;
+    gap: 2%;
+    width: 90%;
+  }
   /* .card-entry{
       width: 80%;
   }

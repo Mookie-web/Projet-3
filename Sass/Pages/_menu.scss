@@ -97,6 +97,7 @@
   .under-title{
     text-overflow: ellipsis;
     overflow: hidden;
+    font-weight: $font-thin;
   }
  
 
@@ -152,7 +153,12 @@
     position:absolute;
     top:36px;
   }
-  @media screen and (min-width:768px) and (max-width:1023px) {
+  @media screen and (min-width:1024px){
+    .flex{
+      display: flex;
+      gap: 2%;
+      width: 90%;
+    }
     /* .card-entry{
         width: 80%;
     }
