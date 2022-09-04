@@ -1,3 +1,25 @@
+body{
+  max-width: 1920px;
+}
+
+// Titre 
+.fonctionnement h2 {
+  margin: 15px 0 15px 26px;
+  font-family: $font-main;
+}
+
+//.title-thin{
+//  font-weight: 100;
+//}
+.title-menu-h2{
+  text-transform: uppercase;
+  padding-top: 35px;
+  margin-left: 45px;
+}
+.background-container{
+  background-color: $container-color;
+}
+
 /* partie icon */
 .icon {
     display: flex;
@@ -13,11 +35,13 @@
   .icon-number i {
     position: absolute;
     left: -22px;
+    top: 13px;
   }
   
   .icon-menu i {
     position: absolute;
     left: -45px;
+    top: 5px;
   }
   
   .icon-store i {
@@ -25,5 +49,6 @@
     left: -45px;
   }
   .title-fonction {
-    margin: 0 0 0 20px;
+    margin-left: 9px;
+    margin-top: 15px;
   }

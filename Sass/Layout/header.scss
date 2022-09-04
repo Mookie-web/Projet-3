@@ -39,9 +39,6 @@ header{
   
   .localisation {
     display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
     align-items: center;
     border: 1px solid $color-grey;
     background-color: $color-grey;
@@ -83,37 +80,7 @@ header{
     padding-left: 48px;
   }
   
-  .button-explore {
-    margin-top: 6%;
-    margin-bottom: 12%;
-  }
   
-  .button-explore {
-    height: 45px;
-    width: 210px;
-    border-radius: 20px;
-    background: linear-gradient(to left, $color-primary, $color-secondary);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: 0.3s;
-  }
   
-  .button-explore p {
-    display: flex;
-    justify-content: center;
-    height: 32px;
-    padding-top: 12px;
-    font-size: 17px;
-    color: white;
-  }
   
-  .button-explore:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-  }
-  
-  .fonctionnement h2 {
-    margin: 15px 0 15px 26px;
-    font-family: $font-primary;
-  }
-
   
