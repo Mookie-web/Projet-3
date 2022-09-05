@@ -486,6 +486,17 @@ body {
   object-position: center;
 }
 
+.img-la-note-enchantée {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .background-container {
   position: relative;
   border-top-left-radius: 30px;
@@ -547,12 +558,6 @@ body {
   margin-left: 30px;
 }
 
-.price {
-  position: absolute;
-  right: 50px;
-  top: 45px;
-}
-
 .entry-card {
   position: relative;
 }
@@ -564,6 +569,9 @@ body {
 .under-title {
   text-overflow: ellipsis;
   overflow: hidden;
+  white-space: nowrap;
+  width: 243px;
+  margin-left: 0px;
   font-weight: 100;
 }
 
@@ -624,13 +632,19 @@ body {
 
 .price {
   position: absolute;
-  top: 36px;
+  right: 50px;
+  top: 32px;
 }
 
 @media screen and (min-width: 1024px) {
   .flex {
     display: flex;
     gap: 2%;
+    width: 90%;
+  }
+  .flex-note {
+    display: flex;
+    flex-wrap: wrap;
     width: 90%;
   }
   /* .card-entry{
