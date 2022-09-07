@@ -133,7 +133,8 @@
    width: 90%;
   }
   .btn{
-   width: 45%;
+    width: 45%;
+    margin: 0 25px 3% 0;
   }
   .section-restaurant{
    margin-top: 8%;
@@ -166,6 +167,12 @@
   .btn-command button{
       width: 35%;
   }
+  .title-menu-h2{
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+  }
 }
 
   
@@ -186,7 +193,8 @@
       // width: 90%;
       //}
       .btn{
-       width: 45%;
+        width: 29%;
+        margin: 1px 25px 3% 0;
       }
       .section-restaurant{
         margin: 8px 5px 12px 5px;
@@ -220,5 +228,28 @@
       }
       .btn-command button{
           width: 25%;
+      }
+      .title-menu-h2{
+          text-transform: uppercase;
+          padding-top: 35px;
+          margin-left: 56px;
+          margin-bottom: 15px;
+      }
+      .icon-number i {
+          position: absolute;
+          left: -16px;
+          top: 13px;
+      }
+
+      .icon-menu i {
+          position: absolute;
+          left: -37px;
+          top: 5px;
+      }
+
+      .icon-store i {
+          position: absolute;
+          left: -35px;
+          top: 6px;
       }
 }

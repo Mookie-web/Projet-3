@@ -7,6 +7,15 @@ body{
   margin: 15px 0 15px 26px;
   font-family: $font-main;
 }
+.line-color{
+  border: $color-tertiary;
+  background-color:$color-tertiary;
+  width: 50px;
+  height: 4px;
+  margin-left: 26px;
+
+
+}
 
 //.title-thin{
 //  font-weight: 100;
@@ -14,7 +23,7 @@ body{
 .title-menu-h2{
   text-transform: uppercase;
   padding-top: 35px;
-  margin-left: 45px;
+  margin-left: 25px;
 }
 .background-container{
   background-color: $container-color;
@@ -50,5 +59,6 @@ body{
   }
   .title-fonction {
     margin-left: 9px;
-    margin-top: 12px;
+    margin-top: 11px;
+
   }

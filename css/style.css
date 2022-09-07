@@ -152,10 +152,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.line-color {
+  border: #99E2D0;
+  background-color: #99E2D0;
+  width: 50px;
+  height: 4px;
+  margin-left: 26px;
+}
+
 .title-menu-h2 {
   text-transform: uppercase;
   padding-top: 35px;
-  margin-left: 45px;
+  margin-left: 25px;
 }
 
 .background-container {
@@ -193,7 +201,7 @@ body {
 
 .title-fonction {
   margin-left: 9px;
-  margin-top: 12px;
+  margin-top: 11px;
 }
 
 .button-explore {
@@ -230,7 +238,7 @@ body {
   border: 1px solid #f6f6f6;
   background-color: #f6f6f6;
   border-radius: 20px;
-  width: 80%;
+  width: 90%;
   height: 70px;
   margin-top: 20px;
 }
@@ -376,6 +384,7 @@ body {
   }
   .btn {
     width: 45%;
+    margin: 0 25px 3% 0;
   }
   .section-restaurant {
     margin-top: 8%;
@@ -408,6 +417,12 @@ body {
   .btn-command button {
     width: 35%;
   }
+  .title-menu-h2 {
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 45px;
+    margin-bottom: 15px;
+  }
 }
 @media screen and (min-width: 1024px) {
   header img {
@@ -420,7 +435,8 @@ body {
     padding-left: 8px;
   }
   .btn {
-    width: 45%;
+    width: 29%;
+    margin: 1px 25px 3% 0;
   }
   .section-restaurant {
     margin: 8px 5px 12px 5px;
@@ -455,6 +471,27 @@ body {
   .btn-command button {
     width: 25%;
   }
+  .title-menu-h2 {
+    text-transform: uppercase;
+    padding-top: 35px;
+    margin-left: 56px;
+    margin-bottom: 15px;
+  }
+  .icon-number i {
+    position: absolute;
+    left: -16px;
+    top: 13px;
+  }
+  .icon-menu i {
+    position: absolute;
+    left: -37px;
+    top: 5px;
+  }
+  .icon-store i {
+    position: absolute;
+    left: -35px;
+    top: 6px;
+  }
 }
 /* La palette du goût */
 .logo-palette {
@@ -487,6 +524,17 @@ body {
 }
 
 .img-la-note-enchantée {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-menu {
   display: flex;
   position: relative;
   align-items: center;
@@ -566,12 +614,15 @@ body {
   color: black;
 }
 
+.flex-menu {
+  display: flex;
+}
+
 .under-title {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  width: 243px;
-  margin-left: 0px;
+  margin: 0;
   font-weight: 100;
 }
 
@@ -579,6 +630,7 @@ body {
   font-size: 17px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .card-price {
@@ -631,21 +683,21 @@ body {
 }
 
 .price {
-  position: absolute;
-  right: 50px;
-  top: 32px;
+  margin-right: 55px;
 }
 
 @media screen and (min-width: 1024px) {
   .flex {
     display: flex;
-    gap: 2%;
-    width: 90%;
+    width: 97%;
   }
   .flex-note {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+  }
+  .btn {
+    width: 31%;
   }
   /* .card-entry{
       width: 80%;
@@ -665,6 +717,121 @@ body {
   .text-bold{
       margin-left: 17px;
   } */
+}
+.loader {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(252, 252, 252, 0.95);
+  position: fixed;
+  animation-name: molten-push;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.LoaderSpinner {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 10px solid rgba(153, 226, 208, 0.2);
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.LoaderSpinner:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid transparent;
+  border-top-color: #9356DC;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: spinner;
+  animation-duration: 600ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.LoaderSpinner:after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid transparent;
+  border-bottom-color: #FF79DA;
+  border-radius: 50%;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  position: absolute;
+  animation-name: spinner;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/*! CSS Used keyframes */
+@keyframes molten-push {
+  0% {
+    opacity: 0.95;
+    z-index: 1000;
+  }
+  10% {
+    opacity: 0.9;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  30% {
+    opacity: 0.7;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.full-heart:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #9356DC;
+  font-weight: 600;
+  transition: all;
 }
 
 /*# sourceMappingURL=style.css.map */
