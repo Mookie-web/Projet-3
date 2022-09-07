@@ -376,6 +376,10 @@ body {
   font-weight: bold;
 }
 
+.flex {
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .flex {
     display: flex;
@@ -421,7 +425,10 @@ body {
     text-transform: uppercase;
     padding-top: 35px;
     margin-left: 45px;
+  }
+  .line-color {
     margin-bottom: 15px;
+    margin-left: 45px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -435,7 +442,7 @@ body {
     padding-left: 8px;
   }
   .btn {
-    width: 29%;
+    width: 45%;
     margin: 1px 25px 3% 0;
   }
   .section-restaurant {
@@ -474,8 +481,11 @@ body {
   .title-menu-h2 {
     text-transform: uppercase;
     padding-top: 35px;
-    margin-left: 56px;
+    margin-left: 20px;
+  }
+  .line-color {
     margin-bottom: 15px;
+    margin-left: 20px;
   }
   .icon-number i {
     position: absolute;
@@ -697,7 +707,7 @@ body {
     width: 90%;
   }
   .btn {
-    width: 31%;
+    width: 45%;
   }
   /* .card-entry{
       width: 80%;

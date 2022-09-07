@@ -126,6 +126,9 @@
   font-size: 18px;
   font-weight: bold;
 }
+.flex{
+  flex-wrap: wrap;
+}
 @media screen and (min-width:767px) and (max-width:1023px) {
   .flex{
    display: flex;
@@ -171,7 +174,10 @@
     text-transform: uppercase;
     padding-top: 35px;
     margin-left: 45px;
+  }
+  .line-color{
     margin-bottom: 15px;
+    margin-left: 45px;
   }
 }
 
@@ -193,7 +199,7 @@
       // width: 90%;
       //}
       .btn{
-        width: 29%;
+        width: 45%;
         margin: 1px 25px 3% 0;
       }
       .section-restaurant{
@@ -232,9 +238,12 @@
       .title-menu-h2{
           text-transform: uppercase;
           padding-top: 35px;
-          margin-left: 56px;
-          margin-bottom: 15px;
+          margin-left: 20px;
       }
+  .line-color{
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
       .icon-number i {
           position: absolute;
           left: -16px;
