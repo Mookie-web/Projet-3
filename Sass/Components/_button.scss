@@ -36,8 +36,35 @@
     height: 70px;
     margin-top: 20px;
   }
-  .btn{
+  .btn-delay5s{
     animation: slideDown 5s;
+  }
+  .btn-delay6s{
+    animation: slideDown 6s;
+  }
+  .btn-delay7s{
+    animation: slideDown 7s;
+  }
+  .btn-delay8s{
+    animation: slideDown 8s;
+  }
+  .btn-delay9s{
+    animation: slideDown 9s;
+  }
+  .btn-delay10s{
+    animation: slideDown 10s;
+  }
+  .btn-delay11s{
+    animation: slideDown 11s;
+  }
+  .btn-delay12s{
+    animation: slideDown 12s;
+  }
+  .btn-delay13s{
+    animation: slideDown 13s;
+  }
+  .btn-delay14s{
+    animation: slideDown 14s;
   }
   @keyframes slideDown {
     0% {
