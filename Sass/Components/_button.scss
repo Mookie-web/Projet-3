@@ -1,18 +1,13 @@
-.button-explore {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  
-  .button-explore {
-    height: 45px;
-    width: 210px;
-    border-radius: 20px;
-    background: linear-gradient(to left, $color-primary, $color-secondary);
-    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-    transition: 0.3s;
-  }
-  
-  .button-explore p {
+.button-explore{
+  height: 45px;
+  width: 210px;
+  border-radius: 20px;
+  background: linear-gradient(to left, $color-primary, $color-secondary);
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  transition: 0.3s;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  p{
     display: flex;
     justify-content: center;
     height: 32px;
@@ -20,13 +15,11 @@
     font-size: 17px;
     color: white;
   }
-  
-  .button-explore:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  :hover{
     cursor: pointer;
   }
-
-  .btn {
+}
+.btn {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     border: 1px solid #f6f6f6;
@@ -36,48 +29,4 @@
     height: 70px;
     margin-top: 20px;
   }
-  .btn-delay5s{
-    animation: slideDown 5s;
-  }
-  .btn-delay6s{
-    animation: slideDown 6s;
-  }
-  .btn-delay7s{
-    animation: slideDown 7s;
-  }
-  .btn-delay8s{
-    animation: slideDown 8s;
-  }
-  .btn-delay9s{
-    animation: slideDown 9s;
-  }
-  .btn-delay10s{
-    animation: slideDown 10s;
-  }
-  .btn-delay11s{
-    animation: slideDown 11s;
-  }
-  .btn-delay12s{
-    animation: slideDown 12s;
-  }
-  .btn-delay13s{
-    animation: slideDown 13s;
-  }
-  .btn-delay14s{
-    animation: slideDown 14s;
-  }
-  @keyframes slideDown {
-    0% {
-      transform: translateY(200px);
-      opacity: 0;
-    }
-    50% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-    100%{
-      transform: translateY(0);
-      opacity: 1;
-    }
 
-  }

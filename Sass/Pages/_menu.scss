@@ -1,267 +1,274 @@
-/* La palette du goût */
-.logo-palette{
-    display: flex;
-    position: relative;
-  }
-  .logo-palette i{
-    position:absolute;
-    left: 43px;
-    bottom: 6px;
-    font-size: 20px;
-    color: $color-black;
-  }
-  .logo-palette img{
-    font-family: $font-primary;
-    width: 160px;
-    
-  }
-  .img-palette-du-gout {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    object-position: center;
-  }
-  .img-la-note-enchantée{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    object-position: center;
-  }
-  .img-menu{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    object-position: center;
-  }
-  .background-container{
-    position: relative;
-    border-top-left-radius:30px;
-    border-top-right-radius:30px;
-    bottom: 25px;
-    padding-bottom: 30px;
 
-  }
-  .container-palette{
-    display: flex;
-    align-items: center;
-    margin-right: 85px;
-    position: relative;
-    border-radius: 15px;
-  }
-
-  .title-palette{
-    display: flex;
-    position: relative;
-    padding-top: 30px;
-    padding-right: 135px;
-    font-size: 20px;
-  }
-  .position-heart{
-    position: absolute;
-    font-size: 26px;
-    top: 35px;
-    left: 325px;
-  }
-  .container-entrees{
-    margin-left: 30px;
-  }
-  .container-entrees h2{
-    text-transform: uppercase;
-    font-size: 18px;
-    padding-top: 25px;
-    margin-left: 15px;
-  }
-  
-  
-  .container-card{
-    background-color: white;
-  }
-  .container-card{
-    // display: flex;
-    position: relative;
-    width: 90%;
-    margin: 1rem 0;
-    overflow: hidden;
-    box-shadow: 0 0 10px 0 #00000066;
-    border-radius: 20px;
-    padding: 15px;
-    cursor: pointer;
-  }
-  .card-entry{
-    margin-left: 30px;
-  }
-  .entry-card{
-    
-    position: relative;
-  }
- 
-  .entry-card a{
-    color: black;
-  }
-  .flex-menu{
-    display: flex;
-  }
-  .under-title{
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0;
-    font-weight: $font-thin;
-  }
- 
-
-  .text-title{
-    font-size: 17px;
-    font-family: $font-main;
-    font-weight: $text-bold;
-    margin-bottom: 8px;
-  }
- 
- 
-  .card-price{
-    position: absolute;
-    left: 300px;
-    top: 40px;
-  }
-  .card-price span{
-    font-family: $font-primary;
-  }
-  .btn-command{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-  }
-  .btn-command button{
-    width: 45%;
-    height: 53px;
-    border-radius: 26px;
-    border: $color-primary;
-    background: linear-gradient(to left, $color-primary, $color-secondary);
-  }
-  .btn-command button p{
-    color: $color-white;
-    font-family: $font-primary;
-    font-size: 18px;
-  }
-  .fa-horizontal-rule{
-    color: $color-tertiary;
-  }
-  .fa-regular{
-      position:absolute;
-      right: -50px;
-      padding-top: 34px;
-      font-size: 35px;
-  }
-  .text-bold{
-    padding-top: 34px;
-    margin-left: 40px;
-    font-size: 32px;
-    font-family: $font-primary;
-  }
-  .price{
-    //justify-content: space-between;
-    //position:absolute;
-    //right: 50px;
-    //top:32px;
-    margin-right: 55px;
-  }
-  .confirmation:hover{
-    margin-right: -1rem;
-  }
-  .confirmation{
-    background-color: $color-tertiary;
-    margin: -1rem -5rem -1rem -1rem;
-    width: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: .5s;
-  }
-  .validate-icon:hover{
-    transform: rotate(0);
-  }
-  .validate-icon{
-    width: 1.6rem;
-    height: 1.6rem;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    transform: rotate(180deg);
-    transition-duration: .5s;
-  }
-  .price-test{
-    font-weight: 700;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-left: 0.5rem;
-  }
-.menu-item{
-  background-color: #fff;
-  padding: 1rem;
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.img-header {
   display: flex;
-  border-radius: 0.75rem;
-  margin: 1rem 0;
-  box-shadow: .25rem .25rem 1rem rgba(0,0,0,.1);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.menu {
+  width: 100%;
+  background-color: #F2F2F2;
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+  border-radius: 30px 30px 0 0;
+}
+.menu-title{
+  display: flex;
+  padding: 15px;
+  i{
+    font-size: 30px;
+  }
+}
+
+.proposal {
+  background-color: white;
+  border-radius: 20px;
+  height: 80px;
+  box-sizing: border-box;
+  width: 94%;
+  padding: 12px 24px 12px 12px;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 5px 9px 3px rgba(0, 0, 0, 0.15);
   overflow: hidden;
-  cursor: pointer;
+  position: relative;
+  animation: appearance 1s backwards;
 }
-.menu-item-title{
-  margin: 0;
+
+.proposal-description {
+  margin-bottom: 8px;
 }
-.menu-item-description{
-  margin: 0;
+
+.proposal-description h2 {
+  font-size: 23px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-  @media screen and (min-width:1024px){
-    .flex{
-      display: flex;
-      width: 97%;
-    }
-    .flex-note{
-      display: flex;
-      flex-wrap: wrap;
-      width: 90%;
-    }
-    .btn{
-      width: 45%;
-    }
-    /* .card-entry{
-        width: 80%;
-    }
-    .text-bold{
-        margin-left: 17px;
-    } */
-    
-}
-@media screen and (min-width:1024px) and (max-width:1440px)  {
-    /* .card-entry{
-        
-        width: 60%;
-    }
-    .card-price{
-        left: 350px;
-    }
-    .text-bold{
-        margin-left: 17px;
-    } */
+.proposal-price {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
+.proposal-price span {
+  font-weight: bold;
+  transition-duration: 500ms;
+  margin-right: 19px;
+}
+
+.proposal-price p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.proposal:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.proposal:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.proposal:nth-child(4) {
+  animation-delay: 0.45s;
+}
+
+.proposal:hover .proposal-description h2 {
+  margin-right: 60px;
+}
+
+.proposal:hover .check-animation {
+  width: 80px;
+  height: 80px;
+  border-radius: 0 20px 20px 0;
+  right: 0;
+}
+
+.proposal:hover .check-animation i {
+  transform: rotate(360deg);
+}
+
+.proposal:hover span {
+  margin-right: 70px;
+}
+
+.starter {
+  background-color: #F2F2F2;
+}
+
+.starter-title {
+  text-transform: uppercase;
+  margin: 0 0 0 3%;
+}
+
+.dishes, .desserts {
+  background-color: #F2F2F2;
+}
+
+.dishes-title, .desserts-title {
+  text-transform: uppercase;
+  margin: 13% 0 0 3%;
+}
+
+
+.check-animation {
+  background-color: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: -12px 0 0 0;
+  border-radius: 0 20px 20px 0;
+  position: absolute;
+  right: -80px;
+  top: 12px;
+  transition-duration: 750ms;
+  i{
+    color: white;
+    font-size: 20px;
+    transition: transform 500ms 250ms;
+    transform: rotate(0deg);
+  }
+}
+
+@media all and (min-width: 1070px){
+  .flex{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    gap: 2%;
+  }
+  .icon{
+    font-size: 18px;
+
+  }
+.icon-menu i{
+  left: -36px;
+  top: 2px;
+}
+  .icon-store i{
+    left: -41px;
+    top: 2px;
+  }
+  .icon-number i{
+    left: -25px;
+    top: 1px;
+  }
+}
+
+//@media all and (min-width: 1301px) {
+//  hr {
+//    margin: 4% 0;
+//  }
+//
+//  .menu {
+//    display: flex;
+//    flex-wrap: wrap;
+//  }
+//
+//
+//  .starter, .dishes, .desserts {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: space-between;
+//    width: 30%;
+//    margin: auto;
+//  }
+//
+//  .starter-title, .dishes-title, .desserts-title {
+//    width: 90%;
+//    font-size: 37px;
+//  }
+//
+//  .starter-title {
+//    margin: 0%;
+//  }
+//
+//  .dishes-title {
+//    margin: 4% 0 0 0;
+//  }
+//
+//  .desserts-title {
+//    margin: 4% 0 0 0;
+//  }
+//
+//  .proposal {
+//    width: 100%;
+//    animation: appearanceDesktopTablet 1s backwards;
+//  }
+//
+//}
+//and (max-width: 1300px)
+//@media all and (min-width: 769px)  {
+//  hr {
+//    margin: 1% 0;
+//  }
+//
+//  .starter, .dishes, .desserts {
+//    display: flex;
+//    flex-wrap: wrap;
+//    justify-content: space-between;
+//    width: 90%;
+//    margin: auto;
+//  }
+//
+//  .starter-title, .dishes-title, .desserts-title {
+//    width: 100%;
+//    font-size: 27px;
+//  }
+//
+//  .starter-title {
+//    margin: 0;
+//  }
+//
+//  .dishes-title {
+//    margin: 4% 0 0 0;
+//  }
+//
+//  .desserts-title {
+//    margin: 4% 0 0 0;
+//  }
+//
+//  .proposal {
+//    width: 45%;
+//    margin: 0 0 3% 0;
+//    animation: appearanceDesktopTablet 1s backwards;
+//  }
+//
+//
+//}
+//
+//@keyframes appearance {
+//  0% {
+//    opacity: 0;
+//    transform: translateY(20px);
+//  }
+//  100% {
+//    opacity: 1;
+//    transform: translateY(0);
+//  }
+//}
+//
+//
+//@keyframes appearanceDesktopTablet {
+//  0% {
+//    opacity: 0;
+//    transform: translateX(20px);
+//  }
+//  100% {
+//    opacity: 1;
+//    transform: translateX(0);
+//  }
+//}

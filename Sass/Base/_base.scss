@@ -1,6 +1,33 @@
 body{
   max-width: 1920px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+hr {
+  width: 37px;
+  height: 2px;
+  background-color: #99E2D0;
+  margin: 5px 0 13px 0;
+  border: none;
+}
 
 // Titre 
 .fonctionnement h2 {
@@ -16,22 +43,15 @@ body{
 
 
 }
-
-//.title-thin{
-//  font-weight: 100;
-//}
 .title-menu-h2{
   text-transform: uppercase;
   padding-top: 35px;
   margin-left: 25px;
 }
-.background-container{
-  background-color: $container-color;
-}
+
 
 /* partie icon */
 .icon {
-    display: flex;
     justify-content: space-between;
     position: relative;
     font-size: 20px;
@@ -43,19 +63,19 @@ body{
   
   .icon-number i {
     position: absolute;
-    left: -22px;
-    top: 13px;
+    left: -25px;
+
   }
   
   .icon-menu i {
     position: absolute;
-    left: -45px;
+    left: -52px;
     top: 5px;
   }
   
   .icon-store i {
     position: absolute;
-    left: -45px;
+    left: -52px;
   }
   .title-fonction {
     margin-left: 9px;
