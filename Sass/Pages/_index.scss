@@ -124,10 +124,7 @@
    flex-wrap: wrap;
    width: 90%;
   }
-  //.btn{
-  //  width: 45%;
-  //  margin: 0 25px 3% 0;
-  //}
+
   .section-restaurant{
    margin-top: 8%;
    margin-bottom: 30px;
@@ -149,6 +146,11 @@
   }
   .entry-card{
       width: 48%;
+  }
+  .starter-proposal-full,.starter-dishes-full,.starter-desserts-full{
+    display: flex;
+    gap: 2%;
+    margin: 0 5px 0 5px;
   }
   //.icon-menu i, .icon-store i{
   //    left: -32px;

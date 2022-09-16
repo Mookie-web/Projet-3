@@ -105,6 +105,8 @@ body {
 
 .starter {
   background-color: #F2F2F2;
+  border-radius:30px ;
+
 }
 
 .starter-title {
@@ -165,6 +167,11 @@ body {
   .icon-number i{
     left: -25px;
     top: 1px;
+  }
+  .starter-proposal-full,.starter-dishes-full,.starter-desserts-full{
+    display: flex;
+    gap: 2%;
+    margin: 0 5px 0 5px;
   }
 }
 
