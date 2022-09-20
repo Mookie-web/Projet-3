@@ -26,6 +26,7 @@ body {
   padding: 15px;
   i{
     font-size: 30px;
+    margin-right:16px;
   }
 }
 
@@ -48,7 +49,7 @@ body {
 }
 
 .proposal-description h2 {
-  font-size: 23px;
+  font-size: 18px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -120,7 +121,7 @@ body {
 
 .dishes-title, .desserts-title {
   text-transform: uppercase;
-  margin: 13% 0 0 3%;
+  margin: 5% 0 0 3%;
 }
 
 
@@ -145,35 +146,41 @@ body {
   }
 }
 
-@media all and (min-width: 1070px){
-  .flex{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 90%;
-    gap: 2%;
-  }
-  .icon{
-    font-size: 18px;
-
-  }
-.icon-menu i{
-  left: -36px;
-  top: 2px;
-}
-  .icon-store i{
-    left: -41px;
-    top: 2px;
-  }
-  .icon-number i{
-    left: -25px;
-    top: 1px;
-  }
-  .starter-proposal-full,.starter-dishes-full,.starter-desserts-full{
-    display: flex;
-    gap: 2%;
-    margin: 0 5px 0 5px;
-  }
-}
+//@media all and (min-width: 1070px){
+//  header img {
+//    width: 32%;
+//  }
+//  .search-city input {
+//    font-size: 19px;
+//  }
+//  .flex{
+//    display: flex;
+//    flex-wrap: nowrap;
+//    width: 90%;
+//    gap: 2%;
+//  }
+//  .icon{
+//    font-size: 18px;
+//
+//  }
+//.icon-menu i{
+//  left: -36px;
+//  top: 2px;
+//}
+//  .icon-store i{
+//    left: -41px;
+//    top: 2px;
+//  }
+//  .icon-number i{
+//    left: -25px;
+//    top: 1px;
+//  }
+//  .starter-proposal-full,.starter-dishes-full,.starter-desserts-full{
+//    display: flex;
+//    gap: 2%;
+//    margin: 0 5px 0 5px;
+//  }
+//}
 
 //@media all and (min-width: 1301px) {
 //  hr {
@@ -257,25 +264,25 @@ body {
 //
 //}
 //
-//@keyframes appearance {
-//  0% {
-//    opacity: 0;
-//    transform: translateY(20px);
-//  }
-//  100% {
-//    opacity: 1;
-//    transform: translateY(0);
-//  }
-//}
-//
-//
-//@keyframes appearanceDesktopTablet {
-//  0% {
-//    opacity: 0;
-//    transform: translateX(20px);
-//  }
-//  100% {
-//    opacity: 1;
-//    transform: translateX(0);
-//  }
-//}
+@keyframes appearance {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes appearanceDesktopTablet {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

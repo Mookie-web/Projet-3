@@ -15,7 +15,8 @@
     font-size: 17px;
     color: white;
   }
-  :hover{
+  &:hover{
+    transform: scale(1.2);
     cursor: pointer;
   }
 }

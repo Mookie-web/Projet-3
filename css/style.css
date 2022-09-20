@@ -107,7 +107,7 @@ footer {
 .footer {
   background-color: #2c423d;
   padding: 18px 0 18px 24px;
-  margin-top: -23px;
+  margin-top: -38px;
 }
 
 .footer a {
@@ -121,6 +121,7 @@ footer {
 
 .footer-content {
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .footer-content-link {
@@ -144,6 +145,7 @@ footer {
 
 body {
   max-width: 1920px;
+  margin: 0 auto;
 }
 
 a {
@@ -197,7 +199,7 @@ hr {
 .icon {
   justify-content: space-between;
   position: relative;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .icon-color {
@@ -243,7 +245,8 @@ hr {
   font-size: 17px;
   color: white;
 }
-.button-explore :hover {
+.button-explore:hover {
+  transform: scale(1.2);
   cursor: pointer;
 }
 
@@ -271,16 +274,24 @@ hr {
   justify-content: center;
   padding-bottom: 10px;
 }
-.container-btn :hover {
-  background-color: #FF79DA;
+.container-btn:hover {
+  background-color: #f5edff;
 }
-.container-btn icon:hover {
-  cursor: pointer;
-  border-radius: 20px;
+.container-btn:hover i {
+  color: #9356DC;
 }
 
-.container-btn:hover:hover i {
-  color: #9356DC;
+.search-city {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+}
+.search-city input {
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+}
+.search-city placeholder {
+  color: black;
 }
 
 .number {
@@ -383,7 +394,7 @@ hr {
   font-weight: bold;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1068px) {
+@media screen and (min-width: 767px) {
   .flex {
     display: flex;
     flex-wrap: wrap;
@@ -412,7 +423,6 @@ hr {
     width: 48%;
   }
   .starter-proposal-full, .starter-dishes-full, .starter-desserts-full {
-    display: flex;
     gap: 2%;
     margin: 0 5px 0 5px;
   }
@@ -460,6 +470,7 @@ body {
 }
 .menu-title i {
   font-size: 30px;
+  margin-right: 16px;
 }
 
 .proposal {
@@ -481,7 +492,7 @@ body {
 }
 
 .proposal-description h2 {
-  font-size: 23px;
+  font-size: 18px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -552,7 +563,7 @@ body {
 
 .dishes-title, .desserts-title {
   text-transform: uppercase;
-  margin: 13% 0 0 3%;
+  margin: 5% 0 0 3%;
 }
 
 .check-animation {
@@ -576,32 +587,24 @@ body {
   transform: rotate(0deg);
 }
 
-@media all and (min-width: 1070px) {
-  .flex {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 90%;
-    gap: 2%;
+@keyframes appearance {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  .icon {
-    font-size: 18px;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  .icon-menu i {
-    left: -36px;
-    top: 2px;
+}
+@keyframes appearanceDesktopTablet {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
   }
-  .icon-store i {
-    left: -41px;
-    top: 2px;
-  }
-  .icon-number i {
-    left: -25px;
-    top: 1px;
-  }
-  .starter-proposal-full, .starter-dishes-full, .starter-desserts-full {
-    display: flex;
-    gap: 2%;
-    margin: 0 5px 0 5px;
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 .loader {
@@ -615,7 +618,7 @@ body {
   background: rgba(252, 252, 252, 0.95);
   position: fixed;
   animation-name: molten-push;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
@@ -624,7 +627,6 @@ body {
   width: 50px;
   height: 50px;
   background: transparent;
-  border: 10px solid rgba(153, 226, 208, 0.2);
   border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -712,12 +714,42 @@ body {
     transform: rotate(360deg);
   }
 }
+.full-heart {
+  position: relative;
+}
+
 .full-heart:hover {
+  transition: opacity 200ms ease-in-out;
+}
+
+.full-heart:hover::after {
+  opacity: 0;
+}
+
+.full-heart:hover::before {
+  opacity: 1;
+}
+
+.full-heart::after {
+  opacity: 1;
+  font-weight: 100;
+  align-self: center;
+  transition: opacity 400ms ease-in;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "\f004";
+}
+
+.full-heart::before {
+  opacity: 0;
+  background: linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-color: #9356DC;
+  transition: opacity 400ms ease-out;
   font-weight: 600;
-  transition: all;
 }
 
 /*# sourceMappingURL=style.css.map */

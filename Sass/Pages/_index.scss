@@ -10,19 +10,28 @@
     justify-content: center;
     padding-bottom: 10px;
   }
-  :hover{
-    background-color: #FF79DA;
-  }
-  icon:hover{
-    cursor: pointer;
-    border-radius: 20px;
+  &:hover{
+    background-color: #f5edff;
+    i{
+      color: $color-primary;
+    }
 
   }
+
 
 }
+.search-city{
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  input{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+  }
+  placeholder{
+    color: black;
+  }
 
-.container-btn:hover:hover i{
-  color: $color-primary;
 }
 .number {
   display: flex;
@@ -118,7 +127,10 @@
     font-weight: bold;
   }
 }
-@media screen and (min-width:767px) and (max-width:1068px) {
+//and (max-width:1068px)
+@media screen and (min-width:767px)  {
+
+
   .flex{
    display: flex;
    flex-wrap: wrap;
@@ -148,7 +160,7 @@
       width: 48%;
   }
   .starter-proposal-full,.starter-dishes-full,.starter-desserts-full{
-    display: flex;
+    //display: flex;
     gap: 2%;
     margin: 0 5px 0 5px;
   }
@@ -171,11 +183,9 @@
 }
 
   
-// Desktop 
-//@media screen and (min-width:1024px){
-//      header img{
-//      width: 32%;
-//      }
+// Desktop
+//@media screen and (min-width:1024px) {
+
 //      .para-one{
 //          display: flex;
 //      }
