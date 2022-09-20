@@ -184,7 +184,12 @@
 
   
 // Desktop
-//@media screen and (min-width:1024px) {
+@media screen and (min-width:1200px) {
+  .flex{
+    flex-wrap: nowrap;
+    gap: 2%;
+  }
+}
 
 //      .para-one{
 //          display: flex;
