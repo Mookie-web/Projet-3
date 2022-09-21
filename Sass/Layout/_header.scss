@@ -12,32 +12,33 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-  header img{
+
+  img{
     display: flex ;
     width: 50%;
     margin: 5% auto;
   }
-  header a{
+
+  a{
     position: absolute;
     left: 20px;
     font-size: 20px;
     color: $color-black;
   }
-  .color-black{
+}
+.color-black{
     color: $color-black;
   }
   .logo {
     display: flex;
     justify-content: center;
     margin-top: 4%;
+
+    img{
+      width: 170px;
+    }
   }
-  
-  .logo img {
-    width: 170px;
-  }
-  
-  .localisation {
+.localisation {
     display: flex;
     align-items: center;
     border: 1px solid $color-grey;
@@ -54,15 +55,10 @@ header{
     background-color: #f2f2f2;
   }
   
-  .para-one-top {
-    font-size: 26px;
+  .title-reservation{
+    font-size: 27px;
+    text-align: center;
   }
-  
-  .para-one-bottom {
-    padding-left: 35px;
-    font-size: 26px;
-  }
-  
   .para-one {
     margin-top: 8%;
   }
@@ -71,14 +67,12 @@ header{
     margin-top: 4%;
   }
   
-  #para-two-top {
+  #para-reservation {
     font-size: 20px;
+    text-align: center;
   }
   
-  #para-two-bottom {
-    font-size: 20px;
-    padding-left: 48px;
-  }
+
   
   
   

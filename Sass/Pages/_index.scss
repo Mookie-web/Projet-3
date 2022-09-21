@@ -4,31 +4,33 @@
   height: 70px;
   gap: 10%;
   position: relative;
+  border-radius: 20px;
+
   p{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
   }
+
   &:hover{
     background-color: #f5edff;
     i{
       color: $color-primary;
     }
-
   }
-
-
 }
 .search-city{
   display: flex;
   align-items: center;
   gap: 4%;
+
   input{
     border: 1px solid lightgrey;
     background-color: lightgrey;
   }
-  placeholder{
+
+  ::placeholder{
     color: black;
   }
 
@@ -54,6 +56,7 @@
   background-color: #f2f2f2;
   margin-top: 15%;
   margin-bottom: 17px;
+
   h1{
     padding-top: 15px;
     margin: 30px 0 35px 25px;
@@ -89,9 +92,7 @@
     object-fit: cover;
     object-position: center;
   }
-  :hover{
-       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-     }
+
 }
 .container {
   padding: 12px 16px;
@@ -127,7 +128,7 @@
     font-weight: bold;
   }
 }
-//and (max-width:1068px)
+
 @media screen and (min-width:767px)  {
 
 
@@ -160,13 +161,9 @@
       width: 48%;
   }
   .starter-proposal-full,.starter-dishes-full,.starter-desserts-full{
-    //display: flex;
     gap: 2%;
     margin: 0 5px 0 5px;
   }
-  //.icon-menu i, .icon-store i{
-  //    left: -32px;
-  //}
 
   .btn-command button{
       width: 35%;
@@ -189,75 +186,15 @@
     flex-wrap: nowrap;
     gap: 2%;
   }
+  header img{
+    width: 30%;
+  }
+  .full-menu{
+    display: flex;
+  }
+  .starter, .dishes, .desserts{
+    width: 33%;
+  }
+;
 }
 
-//      .para-one{
-//          display: flex;
-//      }
-//      .para-one-bottom{
-//          padding-left: 8px;
-//      }
-//
-//      .btn{
-//        width: 45%;
-//        margin: 1px 25px 3% 0;
-//      }
-//      .section-restaurant{
-//        margin: 8px 5px 12px 5px;
-//        h1{
-//          padding-top: 15px;
-//        }
-//      }
-//
-//      .card{
-//       width: 70%;
-//      }
-//      .flex-resto{
-//       display: flex;
-//       flex-direction: row;
-//       gap: 1%;
-//      }
-//      .container-entry{
-//          display: flex;
-//          flex-direction: column;
-//      }
-//      .card-entry{
-//          display: flex;
-//          justify-content: center;
-//          align-items: center;
-//      }
-//      .card-price{
-//          left: 286px;
-//      }
-//      .entry-card{
-//          width: 45%;
-//          margin-left: 8px;
-//      }
-//      .btn-command button{
-//          width: 25%;
-//      }
-//      .title-menu-h2{
-//          text-transform: uppercase;
-//          padding-top: 35px;
-//          margin-left: 20px;
-//      }
-//  .line-color{
-//    margin-bottom: 15px;
-//    margin-left: 20px;
-//  }
-//      .icon-number i {
-//          position: absolute;
-//      }
-//
-//      .icon-menu i {
-//          position: absolute;
-//          left: -37px;
-//          top: 5px;
-//      }
-//
-//      .icon-store i {
-//          position: absolute;
-//          left: -35px;
-//          top: 6px;
-//      }
-//}

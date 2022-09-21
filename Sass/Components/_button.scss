@@ -1,4 +1,4 @@
-.button-explore{
+.button-style{
   height: 45px;
   width: 210px;
   border-radius: 20px;
@@ -7,18 +7,31 @@
   transition: 0.3s;
   margin-top: 40px;
   margin-bottom: 40px;
-  p{
-    display: flex;
-    justify-content: center;
-    height: 32px;
-    padding-top: 12px;
-    font-size: 17px;
-    color: white;
-  }
+  //button{
+  //  display: flex;
+  //  justify-content: center;
+  //  height: 32px;
+  //  padding-top: 12px;
+  //  font-size: 17px;
+  //  color: white;
+  //}
   &:hover{
-    transform: scale(1.2);
+    transform: scale(1);
     cursor: pointer;
   }
+}
+button{
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  padding-top: 12px;
+  font-size: 17px;
+  color: white;
+  border: none;
+}
+.button-explore{
+  display: flex;
+  color: white;
 }
 .btn {
     position: relative;
