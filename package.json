@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mookie-web/Projet-3/issues"
   },
-  "homepage": "https://github.com/Mookie-web/Projet-3#readme"
+  "homepage": "https://github.com/Mookie-web/Projet-3#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
 }
