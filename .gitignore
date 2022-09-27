@@ -4,3 +4,7 @@
 .package.json
 .package-lock.json
 .ohmyfood.code-workspace
+.node_modules
+.idea
+.package.json
+.package-lock.json
