@@ -14,8 +14,7 @@ h1 {
 
 h2 {
   font-size: 22px;
-  margin: 15px 0 15px 26px;
-  padding-top: 15px;
+  margin: 0;
 }
 
 p {
@@ -42,7 +41,10 @@ hr {
   padding-top: 35px;
   margin-left: 25px;
 }
-
+.section-restaurant{
+  margin: 15px 0 15px 26px;
+  font-family: $font-main;
+}
 
 /* partie icon */
 .icon {
